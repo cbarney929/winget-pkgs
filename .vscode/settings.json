@@ -2,5 +2,12 @@
   "[powershell]": {
     "files.encoding": "utf8bom",
     "files.autoGuessEncoding": true
+  },
+  "yaml.disableSchemaDetection": [],
+  "yaml.schemas": {
+    "https://aka.ms/configuration-dsc-schema/0.2": [
+      "*.yml",
+      "*.yaml"
+    ]
   }
 }
